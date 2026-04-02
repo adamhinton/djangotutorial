@@ -1,0 +1,55 @@
+# I copied this after googling "django gitignore" so I make no promises 
+
+# text files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# env
+venv/
+.venv/
+env/
+.env
+.venv
+
+# local DB
+db.sqlite3
+db.sqlite3-journal
+
+# Static and media files - usually managed separately in production
+static/
+media/
+
+# OS & IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Thumbnails
+._*
+
+# Icon must end with two \r
+Icon
